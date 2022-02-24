@@ -14,6 +14,7 @@ import React from 'react'
 // import CompDidMount from './Components/CompDidMount';
 // import CompDidUpdate from './Components/CompDidUpdate';
 import ShouldCopmUpdate from './Components/ShouldCopmUpdate';
+import CompWillMount from './Components/CompWillMount';
 function App() {
 
   // function getData() {
@@ -35,6 +36,7 @@ function App() {
       {/* <CompDidMount /> */}
       {/* <CompDidUpdate/> */}
       <ShouldCopmUpdate />
+      <CompWillMount />
        </div>
   );
 }

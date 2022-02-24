@@ -4,6 +4,15 @@
 .app{
   background:skyblue;
 }
+button{
+  font-size: 15px;
+  font-weight:500;
+  margin:10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
 .app h1{
   display:inline-block;
 }

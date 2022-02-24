@@ -22,6 +22,7 @@ export default class CompDidUpdate extends Component {
       <div className="app">
         <h1>Component Did Update {this.state.count}</h1>
         <br/>
+        <button onClick={() => this.setState({count:1})}>Update</button>
       </div>
     )
   }

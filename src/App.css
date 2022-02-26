@@ -4,6 +4,10 @@
 .app{
   background:skyblue;
 }
+.primary{
+  color: red;
+  background-color:#000;
+}
 button{
   font-size: 15px;
   font-weight:500;

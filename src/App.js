@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import UseCss from './Components/UseCss';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -13,8 +14,9 @@ import React from 'react'
 // import Render from './Components/Render';
 // import CompDidMount from './Components/CompDidMount';
 // import CompDidUpdate from './Components/CompDidUpdate';
-import ShouldCopmUpdate from './Components/ShouldCopmUpdate';
-import CompWillMount from './Components/CompWillMount';
+// import ShouldCopmUpdate from './Components/ShouldCopmUpdate';
+// import CompWillMount from './Components/CompWillMount';
+// import UseEffect from './Components/UseEffect';
 function App() {
 
   // function getData() {
@@ -25,18 +27,20 @@ function App() {
   return (
     <div className="App">
       {/* <FunctionUser />
-      <ClassUser /> */}
-      {/* <Student fname={'Tom & Jerry'} email={'abc@gmail.com'} other={{address:'Delhi',mobile:123}}/> */}
-      {/* <HideShow />
-      <FormHandle /> */}
-      {/* <Condition /> */}
-      {/* <Login /> */}
-      {/* <FunctionProps data={getData} /> */}
-      {/* <Render/> */}
-      {/* <CompDidMount /> */}
-      {/* <CompDidUpdate/> */}
+      <ClassUser />
+      <Student fname={'Tom & Jerry'} email={'abc@gmail.com'} other={{address:'Delhi',mobile:123}}/>
+      <HideShow />
+      <FormHandle />
+      <Condition />
+      <Login />
+      <FunctionProps data={getData} />
+      <Render/>
+      <CompDidMount />
+      <CompDidUpdate/>
       <ShouldCopmUpdate />
-      <CompWillMount />
+      <CompWillMount /> */}
+      {/* <UseEffect /> */}
+      <UseCss />
        </div>
   );
 }

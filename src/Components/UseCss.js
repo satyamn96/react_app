@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './custom.module.css'
+import style from '../custom.module.css'
 export default function UseCss() {
   return (
     <div>

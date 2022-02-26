@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import UseCss from './Components/UseCss';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -17,6 +16,9 @@ import UseCss from './Components/UseCss';
 // import ShouldCopmUpdate from './Components/ShouldCopmUpdate';
 // import CompWillMount from './Components/CompWillMount';
 // import UseEffect from './Components/UseEffect';
+// import UseCss from './Components/UseCss';
+// import Bootstrap from './Components/Bootstrap';
+import ArrayMap from './Components/ArrayMap';
 function App() {
 
   // function getData() {
@@ -40,7 +42,9 @@ function App() {
       <ShouldCopmUpdate />
       <CompWillMount /> */}
       {/* <UseEffect /> */}
-      <UseCss />
+      {/* <UseCss /> */}
+      {/* <Bootstrap /> */}
+      <ArrayMap />
        </div>
   );
 }

@@ -17,9 +17,9 @@ button{
   border-radius:5px;
   cursor: pointer;
 }
-.app h1{
+/* .app h1{
   display:inline-block;
-}
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

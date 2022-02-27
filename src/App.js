@@ -20,7 +20,8 @@ import React from 'react'
 // import Bootstrap from './Components/Bootstrap';
 // import ArrayMap from './Components/ArrayMap';
 // import BootstrapList from './Components/BootstrapList';
-import NestedArrayList from './Components/NestedArrayList';
+// import NestedArrayList from './Components/NestedArrayList';
+import ComponentLoop from './Components/ComponentLoop';
 function App() {
 
   // function getData() {
@@ -48,7 +49,8 @@ function App() {
       {/* <Bootstrap /> */}
       {/* <ArrayMap /> */}
       {/* <BootstrapList /> */}
-      <NestedArrayList />
+      {/* <NestedArrayList /> */}
+      <ComponentLoop />
        </div>
   );
 }

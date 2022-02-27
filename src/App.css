@@ -8,6 +8,15 @@
   color: red;
   background-color:#000;
 }
+.comp-loop{
+  margin: 20px 0px;
+}
+.comp-loop span{
+  padding: 10px;
+  background: var(--bs-gray-dark);
+  color: #fff;
+}
+
 button{
   font-size: 15px;
   font-weight:500;

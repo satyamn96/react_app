@@ -18,7 +18,8 @@ import React from 'react'
 // import UseEffect from './Components/UseEffect';
 // import UseCss from './Components/UseCss';
 // import Bootstrap from './Components/Bootstrap';
-import ArrayMap from './Components/ArrayMap';
+// import ArrayMap from './Components/ArrayMap';
+import BootstrapList from './Components/BootstrapList';
 function App() {
 
   // function getData() {
@@ -44,7 +45,8 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseCss /> */}
       {/* <Bootstrap /> */}
-      <ArrayMap />
+      {/* <ArrayMap /> */}
+      <BootstrapList />
        </div>
   );
 }

@@ -30,12 +30,7 @@ export default function BootstrapList() {
                   <td>{item.email}</td>
                   <td>{item.address}</td>
                   <td>{item.phone}</td>
-              </tr>:<tr key={i} >
-                  <td>{item.name}</td>
-                  <td>{item.email}</td>
-                  <td>{item.address}</td>
-                  <td>{item.phone}</td>
-              </tr>
+              </tr>:null
               )
 }
           </tbody>

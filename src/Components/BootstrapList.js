@@ -5,7 +5,7 @@ export default function BootstrapList() {
     const contacts = [
         { name: 'Sam', email: 'sam123@gmail.com', address: 'Delhi' ,phone: '111'},
         { name: 'John', email: 'john321@gmail.com', address: 'New Delhi',phone: '111' },
-        { name: 'Max', email: 'max123@gmail.com', address: 'Noida',phone: '000'}
+        { name: 'Max', email: 'max123@gmail.com', address: 'Noida',phone: '0000'}
     ]
   return (
     <>

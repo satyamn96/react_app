@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import UseMemo from './Components/UseMemo';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -21,7 +22,8 @@ import React from 'react'
 // import ArrayMap from './Components/ArrayMap';
 // import BootstrapList from './Components/BootstrapList';
 // import NestedArrayList from './Components/NestedArrayList';
-import ComponentLoop from './Components/ComponentLoop';
+// import ComponentLoop from './Components/ComponentLoop';
+// import PureComponent from './Components/PureComponent';
 function App() {
 
   // function getData() {
@@ -50,7 +52,9 @@ function App() {
       {/* <ArrayMap /> */}
       {/* <BootstrapList /> */}
       {/* <NestedArrayList /> */}
-      <ComponentLoop />
+      {/* <ComponentLoop /> */}
+      {/* <PureComponent /> */}
+      <UseMemo />
        </div>
   );
 }

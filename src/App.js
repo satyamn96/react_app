@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import UseMemo from './Components/UseMemo';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -24,6 +23,9 @@ import UseMemo from './Components/UseMemo';
 // import NestedArrayList from './Components/NestedArrayList';
 // import ComponentLoop from './Components/ComponentLoop';
 // import PureComponent from './Components/PureComponent';
+// import UseMemo from './Components/UseMemo';
+import ClassRef from './Components/ClassRef';
+import FunctionRef from './Components/FunctionRef';
 function App() {
 
   // function getData() {
@@ -54,7 +56,9 @@ function App() {
       {/* <NestedArrayList /> */}
       {/* <ComponentLoop /> */}
       {/* <PureComponent /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <ClassRef />
+      <FunctionRef />
        </div>
   );
 }

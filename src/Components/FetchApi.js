@@ -4,7 +4,7 @@ export default function FetchApi() {
 
     const[data , setData] =useState();
     useEffect(()=>{
-        fetch("https://jsonplaceholder.typicode.com/posts").then((result)=>{
+        fetch("http://localhost:3000/users").then((result)=>{
             result.json().then((resp)=>{
                 console.log(resp);
                 setData(resp);
@@ -14,8 +14,7 @@ export default function FetchApi() {
   return (
     <div className="app">
       <h1>Fetch API GET Method</h1>
-     <div> {()=>setData(data.id)}
-     </div>
+     
      
     </div>
   )

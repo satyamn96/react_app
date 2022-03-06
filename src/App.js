@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import FetchApi from './Components/FetchApi';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -41,6 +40,7 @@ import FetchApi from './Components/FetchApi';
 // import Navbar from './Components/Navbar';
 // import PageNotFound from './Components/PageNotFound';
 // import DynamicRouting from './Components/DynamicRouting';
+import FetchApi from './Components/FetchApi';
 
 function App() {
 

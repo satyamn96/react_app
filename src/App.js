@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import FetchApi from './Components/FetchApi';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -30,15 +31,16 @@ import React from 'react'
 // import HocGreen from './Components/HocGreen'
 // import HocBlue from './Components/HocBlue'
 // import HighOrderComp from './Components/HighOrderComp'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from "react-router-dom";
-import HomePage from './Components/HomePage';
-import AboutUs from './Components/AboutUs';
-import Navbar from './Components/Navbar';
-import PageNotFound from './Components/PageNotFound';
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Switch
+// } from "react-router-dom";
+// import HomePage from './Components/HomePage';
+// import AboutUs from './Components/AboutUs';
+// import Navbar from './Components/Navbar';
+// import PageNotFound from './Components/PageNotFound';
+// import DynamicRouting from './Components/DynamicRouting';
 
 function App() {
 
@@ -77,15 +79,17 @@ function App() {
       {/* <HocComp cmp={HighOrderComp} />
       <HocGreen cmp={HighOrderComp} />
       <HocBlue cmp={HighOrderComp} /> */}
-      <Router>
-        <Navbar/>
+      {/* <Router>
+        <Navbar />
         <Switch>
-        <Route path="/about"> <AboutUs /></Route>
-        <Route path="/contact"> <PageNotFound /></Route>
-        <Route path="/" exact={true}> <HomePage /></Route>
+          <Route path="/about"> <AboutUs /></Route>
+          <Route path="/" exact={true}> <HomePage /></Route>
+          <Route path="*"> <PageNotFound /></Route>
         </Switch>
-      </Router>
-       </div>
+        <Route path="/user"><DynamicRouting /></Route>
+      </Router> */}
+      <FetchApi />
+    </div>
   );
 }
 

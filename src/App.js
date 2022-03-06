@@ -24,14 +24,29 @@ import React from 'react'
 // import ComponentLoop from './Components/ComponentLoop';
 // import PureComponent from './Components/PureComponent';
 // import UseMemo from './Components/UseMemo';
-import ClassRef from './Components/ClassRef';
-import FunctionRef from './Components/FunctionRef';
+// import ClassRef from './Components/ClassRef';
+// import FunctionRef from './Components/FunctionRef';
+// import HocComp from './Components/HocComp'
+// import HocGreen from './Components/HocGreen'
+// import HocBlue from './Components/HocBlue'
+// import HighOrderComp from './Components/HighOrderComp'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from "react-router-dom";
+import HomePage from './Components/HomePage';
+import AboutUs from './Components/AboutUs';
+import Navbar from './Components/Navbar';
+import PageNotFound from './Components/PageNotFound';
+
 function App() {
 
   // function getData() {
   //   alert('Hello From React App!');
   // }
   // const[user , setUser] = React.useState("Harry Potter");
+  // console.log("Working on Router");
 
   return (
     <div className="App">
@@ -57,10 +72,22 @@ function App() {
       {/* <ComponentLoop /> */}
       {/* <PureComponent /> */}
       {/* <UseMemo /> */}
-      <ClassRef />
-      <FunctionRef />
+      {/* <ClassRef />
+      <FunctionRef /> */}
+      {/* <HocComp cmp={HighOrderComp} />
+      <HocGreen cmp={HighOrderComp} />
+      <HocBlue cmp={HighOrderComp} /> */}
+      <Router>
+        <Navbar/>
+        <Switch>
+        <Route path="/about"> <AboutUs /></Route>
+        <Route path="/contact"> <PageNotFound /></Route>
+        <Route path="/" exact={true}> <HomePage /></Route>
+        </Switch>
+      </Router>
        </div>
   );
 }
+
 
 export default App;

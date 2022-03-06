@@ -73,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### 'Today i have Learn and Implement About Controlled , UnControlled & High Order Component'
 
 ### 'Learn & Implement about Routing'
+
+### 'Learn About API GET Method and About Postman'

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
-
+import {Table} from 'react-bootstrap'
 export default function FetchApi() {
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
-  const [udata, setUdata] = useState();
+  const [data, setUdata] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/posts").then((result) => {
       result.json().then((resp) => {
@@ -40,6 +39,28 @@ export default function FetchApi() {
         <input type="text" value={mobile} onChange={(e) => { setMobile(e.target.value) }} name="mobile" /><br /><br />
         <button type="button" onClick={saveUser}>Save New User</button>
       </div>
+      <center>
+      <Table border="1">
+          <tbody>
+            <tr>
+              <td>ID</td>
+              <td>Name</td>
+              <td>Email</td>
+              <td>Mobile</td>
+            </tr>
+            {
+              data.map((item, i) =>
+                <tr key={i}>
+                  <td>{item.id}</td>
+                  <td>{item.name}</td>
+                  <td>{item.email}</td>
+                  <td>{item.mobile}</td>
+                </tr>
+              )
+            }
+          </tbody>
+        </Table>
+        </center>
     </>
   )
 } 

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
+import PrevProps from './Components/PrevProps';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -30,6 +31,7 @@ import React from 'react'
 // import HocGreen from './Components/HocGreen'
 // import HocBlue from './Components/HocBlue'
 // import HighOrderComp from './Components/HighOrderComp'
+// import PrevState from './Components/PrevState';
 // import {
 //   BrowserRouter as Router,
 //   Route,
@@ -40,7 +42,8 @@ import React from 'react'
 // import Navbar from './Components/Navbar';
 // import PageNotFound from './Components/PageNotFound';
 // import DynamicRouting from './Components/DynamicRouting';
-import FetchApi from './Components/FetchApi';
+// import AxiosFetch from './Components/AxiosFetch';
+// import FetchApi from './Components/FetchApi';
 
 function App() {
 
@@ -88,7 +91,10 @@ function App() {
         </Switch>
         <Route path="/user"><DynamicRouting /></Route>
       </Router> */}
-      <FetchApi />
+      {/* <AxiosFetch /> */}
+      {/* <FetchApi /> */}
+      {/* <PrevState /> */}
+      <PrevProps />
     </div>
   );
 }

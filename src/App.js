@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import PrevProps from './Components/PrevProps';
 // import FunctionUser from './Components/FunctionUser';
 // import ClassUser from './Components/ClassUser';
 // import Student from './Components/Student';
@@ -44,9 +43,11 @@ import PrevProps from './Components/PrevProps';
 // import DynamicRouting from './Components/DynamicRouting';
 // import AxiosFetch from './Components/AxiosFetch';
 // import FetchApi from './Components/FetchApi';
+// import PrevProps from './Components/PrevProps';
+import MainContext from './Components/MainContext';
 
 function App() {
-
+  
   // function getData() {
   //   alert('Hello From React App!');
   // }
@@ -94,7 +95,8 @@ function App() {
       {/* <AxiosFetch /> */}
       {/* <FetchApi /> */}
       {/* <PrevState /> */}
-      <PrevProps />
+      {/* <PrevProps /> */}
+      <MainContext />
     </div>
   );
 }

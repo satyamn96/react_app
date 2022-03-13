@@ -26,6 +26,16 @@
   border-radius:5px;
   cursor: pointer;
 }
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* .app h1{
   display:inline-block;
 } */
